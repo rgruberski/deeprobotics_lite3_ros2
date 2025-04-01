@@ -1,0 +1,5 @@
+include package.xml
+recursive-include urdf *
+recursive-include meshes *
+recursive-include launch *
+recursive-include rviz *
