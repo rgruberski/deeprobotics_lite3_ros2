@@ -1,4 +1,4 @@
-# DeepRobotics Lite 3 quadruped robot ROS2 simulated environment
+# DeepRobotics Lite 3 ROS2 + Sim
 
 The repository contains packages which allow run the Deep Robotics Lite 3 robot in modern ROS2 simulated environment. The current version has been developed with ROS2 Jazzy and Gazebo Harmonic.
 
