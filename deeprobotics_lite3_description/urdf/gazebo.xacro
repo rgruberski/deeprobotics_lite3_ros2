@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-  <gazebo>
+  <!-- <gazebo>
     <plugin filename="libgazebo_ros_control.so" name="gazebo_ros_control">
       <robotNamespace>/lite3_gazebo</robotNamespace>
       <robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType>
     </plugin>
-  </gazebo>
+  </gazebo> -->
 
-  <gazebo reference="imu_link">
+  <!-- <gazebo reference="imu_link">
     <gravity>true</gravity>
     <sensor name="imu_sensor" type="imu">
       <always_on>true</always_on>
@@ -31,10 +31,10 @@
   <gazebo reference="imu_link">
     <mu1>0.2</mu1>
     <mu2>0.2</mu2>
-  </gazebo>
+  </gazebo> -->
 
   <!-- Foot contacts. -->
-  <gazebo reference="FR_SHANK">
+  <!-- <gazebo reference="FR_SHANK">
     <sensor name="FR_foot_contact" type="contact">
       <update_rate>100</update_rate>
       <plugin filename="libRobotFootContactPlugin.so" name="contactPlugin"/>
@@ -72,7 +72,7 @@
         <collision>HL_SHANK_fixed_joint_lump__HL_FOOT_collision_1</collision>
       </contact>
     </sensor>
-  </gazebo>
+  </gazebo> -->
 
   <gazebo reference="TORSO">
     <mu1>0.2</mu1>
